@@ -22,7 +22,7 @@ exports.run = (client, message, params) => {
     .addField('Üye sayısı:', message.guild.memberCount)
     .addField('Sahibi:', message.guild.owner + ' (' + message.guild.ownerID + ')')
     .addField('Kanal sayısı:', message.guild.channels.size)
-    .addField('Oluşturulma tarihi:', message.guild.createdAt)
+    .addField('Oluşturulan Kişi:', DekaBot Ekibi By Efecan )
     return message.channel.sendEmbed(sunucubilgi);
     }
 };
