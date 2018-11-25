@@ -8,6 +8,7 @@ exports.run = (client, message, args) => {
   .setTimestamp()
   .setAuthor(message.author.username, message.author.avatarURL)
   .addField(':warning: Uyarı :warning:', '`ban` adlı komutu özel mesajlarda kullanamazsın.')
+          .setImage(`http://www.hareketligifler.net/data/media/114/polis-hareketli-resim-0023.gif`)
   return message.author.sendEmbed(ozelmesajuyari); }
   let guild = message.guild
   let reason = args.slice(1).join(' ');
@@ -23,6 +24,7 @@ exports.run = (client, message, args) => {
   const embed = new Discord.RichEmbed()
     .setColor(0x00AE86)
     .setTimestamp()
+          .setImage(`https://media.giphy.com/media/fe4dDMD2cAU5RfEaCU/giphy.gif`)
     .addField('Eylem:', 'Ban')
     .addField('Kullanıcı:', `${user.username}#${user.discriminator} (${user.id})`)
     .addField('Yetkili:', `${message.author.username}#${message.author.discriminator}`)
