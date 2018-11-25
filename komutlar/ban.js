@@ -1,4 +1,3 @@
-        .setImage(`https://media.giphy.com/media/fe4dDMD2cAU5RfEaCU/giphy.gif`)
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -24,6 +23,7 @@ exports.run = (client, message, args) => {
   const embed = new Discord.RichEmbed()
     .setColor(0x00AE86)
     .setTimestamp()
+        .setImage(`https://media.giphy.com/media/fe4dDMD2cAU5RfEaCU/giphy.gif`)
     .addField('Eylem:', 'Ban')
     .addField('Kullanıcı:', `${user.username}#${user.discriminator} (${user.id})`)
     .addField('Yetkili:', `${message.author.username}#${message.author.discriminator}`)
