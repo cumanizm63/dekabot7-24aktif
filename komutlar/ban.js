@@ -30,6 +30,8 @@ exports.run = (client, message, args) => {
   return guild.channels.get(modlog.id).sendEmbed(embed);
 };
 
+        .setImage(`http://www.hareketligifler.net/data/media/114/polis-hareketli-resim-0023.gif`)
+
 exports.conf = {
   enabled: true,
   guildOnly: true,
