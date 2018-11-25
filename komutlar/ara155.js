@@ -11,7 +11,7 @@ exports.run = (client, message, params) => {
     return message.author.sendEmbed(ozelmesajuyari); }
     if (message.channel.type !== 'dm') {
       const sunucubilgi = new Discord.RichEmbed()
-    .setAuthor(message.author.username + ' Polis Geliyor!!!! (Ciddiye Almayınız)')
+    .setAuthor(message.author.username + ' Polis Geliyor!!!! (Ciddiyeaaaaaa Almayınız)')
     .setColor('RANDOM')
     .setTimestamp()
     .setDescription('')
