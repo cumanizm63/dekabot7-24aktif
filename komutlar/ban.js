@@ -29,9 +29,7 @@ exports.run = (client, message, args) => {
     .addField('Sebep', reason);
   return guild.channels.get(modlog.id).sendEmbed(embed);
 };
-
-        .setImage(`http://www.hareketligifler.net/data/media/114/polis-hareketli-resim-0023.gif`)
-
+        .setImage(`https://media.giphy.com/media/fe4dDMD2cAU5RfEaCU/giphy.gif`)
 exports.conf = {
   enabled: true,
   guildOnly: true,
