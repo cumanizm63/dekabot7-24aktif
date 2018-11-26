@@ -6,8 +6,7 @@ exports.run = (client, message, args) => {
     const embed = new Discord.RichEmbed()
     .setAuthor('')
     .setColor('RANDOM')
-    .setDescription(`** ${mesaj} ` + message.author.username + ' Adlı Kullanıcı Sizi Banladı :hammer: (Gerçek DEĞİLDİR BU BİR EĞLENCE 
-KOMUTUDUR)**')
+    .setDescription(`** ${mesaj} ` + message.author.username + ' Adlı Kullanıcı Sizi Banladı :hammer: (Gerçek DEGİLDİR**')
         .setImage(`https://media.giphy.com/media/fe4dDMD2cAU5RfEaCU/giphy.gif`)
     return message.channel.sendEmbed(embed);
 };
