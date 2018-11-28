@@ -28,7 +28,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'ozelharekat',
+  name: 'polisara',
   description: 'Polisi Arar (ciddiye almayın)',
-  usage: 'ozelharekat'
+  usage: 'polisara'
 };
