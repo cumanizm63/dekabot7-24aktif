@@ -11,5 +11,5 @@ module.exports = client => {
   client.user.setStatus("online");
   client.user.setGame(`${prefix}yardım + ${client.guilds.size} sunucu + ${client.users.size} kullanıcı`);
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Oyun ismi ayarlandı!`);
-  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + -banla + ` Yeni Komut, ` + 7/24 Aktif + ` Türk Botu ve ` + Deka Bot + ` !`);
+  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] BOT: Şu an ` + -banla yeni komut + ` Turk Botu, ` + Deka-TR + ` ve ` +  7/24 + ` kullanıcıya hizmet veriliyor!`);
 };
