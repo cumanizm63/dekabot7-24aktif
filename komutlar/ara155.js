@@ -15,7 +15,7 @@ exports.run = (client, message, params) => {
     .setColor('RANDOM')
     .setTimestamp()
     .setDescription('')
-        .setImage(`http://www.hareketligifler.net/data/media/114/polis-hareketli-resim-0023.gif`)
+        .setImage(`http://gifler.org/wp-content/uploads/2016/02/ozelharekat.gif`)
     return message.channel.sendEmbed(sunucubilgi);
     }
 };
