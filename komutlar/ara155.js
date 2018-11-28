@@ -11,7 +11,7 @@ exports.run = (client, message, params) => {
     return message.author.sendEmbed(ozelmesajuyari); }
     if (message.channel.type !== 'dm') {
       const sunucubilgi = new Discord.RichEmbed()
-    .setAuthor(message.author.username + ' Polis Geliyor!!!! (Ciddiye Almayınız)')
+    .setAuthor(message.author.username + ' İste geliyor ozel harekatt!!!! (Ciddiye Almayınız)')
     .setColor('RANDOM')
     .setTimestamp()
     .setDescription('')
@@ -28,7 +28,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'ara155',
+  name: 'ozelharekat',
   description: 'Polisi Arar (ciddiye almayın)',
-  usage: 'ara155'
+  usage: 'ozelharekat'
 };
